@@ -1,0 +1,9 @@
+name = "dupsearch"
+defaultTargets = ["DupSearch"]
+
+[leanOptions]
+autoImplicit = false # no "assume a typo is a new variable"
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "DupSearch"

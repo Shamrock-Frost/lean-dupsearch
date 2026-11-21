@@ -1,0 +1,7 @@
+name = "fixture"
+defaultTargets = ["Fixture"]
+
+# No root file: the library is a glob.
+[[lean_lib]]
+name = "Fixture"
+globs = ["Fixture.+"]
