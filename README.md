@@ -255,6 +255,7 @@ that finds the relevant star lemmas finds what scoring every lemma finds.
 
 ## Origin
 
-Ported from `scripts/DuplicateSearch.lean` and `scripts/StatementIndex.lean` of the atoms
-project (`Shamrock-Frost/atoms`, commits `08adaa9` and `d94b5b6`). Its
-`docs/research/slow-lint-pass.md` reads every hit of a full run.
+Ported from the duplicate search and statement index of the Atoms project, the library the
+figures above were measured on. Its Lean sources are at
+[Shamrock-Frost/atoms-formal](https://github.com/Shamrock-Frost/atoms-formal); its tooling and
+the manual read of the hits are not public.
