@@ -1,5 +1,8 @@
 name = "dupsearch"
 defaultTargets = ["DupSearch"]
+license = "MIT"
+description = "Find theorems of a Lean library that restate an existing lemma"
+keywords = ["tooling", "search", "duplicates"]
 
 [leanOptions]
 autoImplicit = false # no "assume a typo is a new variable"
